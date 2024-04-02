@@ -2,3 +2,7 @@
 memory=8GB
 swap=0
 systemd=true
+[experimental]
+networkingMode=mirrored
+hostAddressLoopback=true
+dnsTunneling=true

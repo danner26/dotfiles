@@ -1,6 +1,7 @@
 #!/bin/zsh
 
 # Do not want background jobs to be at a lower priority
+export LC_ALL="C.UTF-8"
 autoload -Uz compinit
 compinit
 unsetopt BG_NICE
