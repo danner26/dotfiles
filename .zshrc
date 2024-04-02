@@ -1,6 +1,8 @@
 #!/bin/zsh
 
 # Do not want background jobs to be at a lower priority
+autoload -Uz compinit
+compinit
 unsetopt BG_NICE
 
 # WSL specific things
